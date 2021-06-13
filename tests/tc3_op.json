@@ -1,0 +1,15 @@
+{
+    "demo": true,
+    "person.dateOfBirth": "1980-01-02T00:00:00.000Z",
+    "person.emergencyContacts.person.name": "Jane Doe",
+    "person.emergencyContacts.person.phone": "888-555-1212",
+    "person.emergencyContacts.person.relationship": "spouse",
+    "person.id": 12345,
+    "person.name": "John Doe",
+    "person.phones.home": "800-123-4567",
+    "person.phones.mobile": "877-123-1234",
+    "person.registered": true,
+    "product": "Live JSON generator",
+    "releaseDate": "2014-06-25T00:00:00.000Z",
+    "version": 3.1
+}

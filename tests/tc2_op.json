@@ -1,0 +1,11 @@
+{
+    "id": "0001",
+    "image.height": 200,
+    "image.url": "images/0001.jpg",
+    "image.width": 200,
+    "name": "Cake",
+    "thumbnail.height": 32,
+    "thumbnail.url": "images/thumbnails/0001.jpg",
+    "thumbnail.width": 32,
+    "type": "donut"
+}

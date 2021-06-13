@@ -1,0 +1,8 @@
+{
+    "age":30, 
+    "name": {
+        "firstname" : "Prabhu",
+        "lastname"  : "Mohan"
+    },
+    "city":"New York"
+}
