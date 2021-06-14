@@ -35,10 +35,10 @@ void flatten(const string& prefix, json& j, json& json_out) {
     }
 }
 
-void flatten(std::istream& is, std::ostream& os) {
+bool flatten(std::istream& is, std::ostream& os) {
     if(!is || !os)
-        return;
-        
+        return false;
+
     json json_obj = json::parse(is);
     json flat_json;
     try {
@@ -47,8 +47,14 @@ void flatten(std::istream& is, std::ostream& os) {
     }
     catch(exception e) {
         os << "Exception while flattening json -> " << e.what() << endl;
-        return;
+        return false;
     }
+    catch(...) {
+        os << "Unknown error while flattening json " << endl;
+        return false;
+    }
+
+    return true;
 }
 
 
